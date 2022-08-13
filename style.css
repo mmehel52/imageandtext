@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(59, 54, 54);
+}
+.container{
+    border:3px solid purple;
+    position: relative;
+    height: 140px;
+    width: 700px;
+     margin: auto;
+     margin-top: 20px;
+  
+}
+.text{
+  /* border: 2px solid red; */
+  width: 400px;
+  float:right;
+  height: 135px;
+  padding: 2px;
+  color:#9C8599;
+  
+}
+.image{
+    position: absolute;
+    left: 0px;
+    float:left;
+    /* border: 2px solid red; */
+    height: 120px;
+    margin-top: 10px
+
+}
+img{
+    width: 250px;
+    height: 100px;
+}
